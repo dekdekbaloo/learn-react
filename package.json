@@ -1,7 +1,7 @@
 {
   "name": "learn-react",
   "version": "0.1.0",
-  "homepage": "https://dekdekbaloo.github.io/learn-react",
+  "homepage": "https://dekdekbaloo.github.io/learn-react/",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
@@ -13,7 +13,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,6 +27,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@types/react-router-dom": "^4.3.1"
+    "@types/react-router-dom": "^4.3.1",
+    "gh-pages": "^2.0.1"
   }
 }
