@@ -1,10 +1,12 @@
 {
   "name": "learn-react",
   "version": "0.1.0",
+  "homepage": "https://dekdekbaloo.github.io/learn-react",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
   },
   "scripts": {
@@ -21,5 +23,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/react-router-dom": "^4.3.1"
+  }
 }

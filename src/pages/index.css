@@ -1,0 +1,10 @@
+.index-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-page h1 {
+  text-align: center;
+}
