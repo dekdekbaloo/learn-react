@@ -1,0 +1,36 @@
+.lesson-one {
+  padding-bottom: 100px;
+}
+
+.lesson-one h1, h2 {
+  text-align: center;
+}
+
+.lesson-one-example {
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+
+.lesson-one-example__props {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lesson-one-example__props code {
+  display: inline-block;
+}
+
+.lesson-one-example__arrow {
+  text-align: center;
+}
+
+.lesson-one-example__render {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.lesson-one-example__render-content {
+  font-size: 50px;
+}
+

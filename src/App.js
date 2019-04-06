@@ -3,13 +3,15 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
-import IndexPage from './pages/index'
+
+import './App.css'
+import IndexPage from './pages/IndexPage'
+import LessonsPage from './pages/LessonsPage';
 
 const App = () => (
   <Router basename={process.env.PUBLIC_URL}>
-    <Route exact path='/'>
-      <IndexPage />
-    </Route>
+    <Route exact path='/' component={IndexPage} />
+    <Route path='/lessons/' component={LessonsPage} />
   </Router>
 )
 
